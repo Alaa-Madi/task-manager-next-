@@ -1,0 +1,54 @@
+.container {
+    min-height: 100vh;
+    background-color: #f7fafc; /* Tailwind gray-100 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem; /* Tailwind p-6 */
+  }
+  
+  .title {
+    font-size: 2rem; /* Tailwind text-4xl */
+    font-weight: 700; /* Tailwind font-bold */
+    color: #2d3748; /* Tailwind gray-800 */
+    margin-bottom: 1.5rem; /* Tailwind mb-6 */
+  }
+  
+  .tableContainer {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Tailwind shadow-lg */
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+    padding: 1.5rem; /* Tailwind p-6 */
+    width: 100%;
+    max-width: 768px; /* Tailwind max-w-3xl */
+    overflow: hidden;
+  }
+  
+  .table {
+    min-width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .thead {
+    background-color: #edf2f7; /* Tailwind gray-50 */
+  }
+  
+  .th, .td {
+    padding: 1rem 1.5rem; /* Tailwind px-6 py-4 */
+    text-align: left;
+    font-size: 0.875rem; /* Tailwind text-xs */
+    font-weight: 500; /* Tailwind font-medium */
+    color: #4a5568; /* Tailwind gray-500 */
+  }
+  
+  .tdStatus {
+    font-weight: 600; /* Tailwind font-semibold */
+  }
+  
+  .completed {
+    color: #38a169; /* Tailwind green-600 */
+  }
+  
+  .pending {
+    color: #e53e3e; /* Tailwind red-600 */
+  }
