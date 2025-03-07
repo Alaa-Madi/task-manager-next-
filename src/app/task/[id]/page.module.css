@@ -1,0 +1,61 @@
+.taskDetailsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f4f8; /* Light background */
+}
+
+.taskCard {
+    background-color: #ffffff; /* White background for the card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text */
+    max-width: 600px; /* Max width of the card */
+    width: 100%; /* Full width on mobile */
+}
+
+.taskTitle {
+    font-size: 1.8rem; /* Title font size */
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.taskStatus {
+    font-size: 1.2rem; /* Status font size */
+    margin-bottom: 10px; /* Space below the status */
+}
+
+.taskId {
+    font-size: 1rem; /* ID font size */
+    margin-bottom: 20px; /* Space below the ID */
+}
+
+.completed {
+    color: #4caf50; /* Green color for completed */
+}
+
+.pending {
+    color: #ff9800; /* Orange color for pending */
+}
+
+.taskImage {
+    border-radius: 8px; /* Rounded corners for images */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.backLink {
+    display: inline-block; /* Make it a block element */
+    margin-top: 10px; /* Space above the link */
+    padding: 10px 20px; /* Button padding */
+    background-color: #2196f3; /* Blue background */
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded button */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.backLink:hover {
+    background-color: #1976d2; /* Darker blue on hover */
+}
